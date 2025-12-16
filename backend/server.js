@@ -21,7 +21,7 @@ server.use((req, res, next) => {
 
 server.use(router); // ← DESPUÉS DEL CORS
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`JSON Server corriendo en puerto ${PORT}`);
 });
